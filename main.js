@@ -106,7 +106,7 @@ const endGame = () => {
   document.body.appendChild(div)
   function playAgain() {
     document.querySelector('.popup').addEventListener('click', () => {
-      window.open('index.html', 'self')
+      window.open('index.html', '_self')
     })
   }
   playAgain()
